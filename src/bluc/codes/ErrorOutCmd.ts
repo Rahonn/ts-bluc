@@ -1,5 +1,5 @@
-import { Commands } from "../CommandType.ts";
-import { BaseCommand } from "./base/BaseCmd.ts";
+import { Commands } from "../CommandType";
+import { BaseCommand } from "./base/BaseCmd";
 
 export class ErrorOutCmd extends BaseCommand {
 

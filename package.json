@@ -1,0 +1,14 @@
+{
+  "name": "ts-bluc",
+  "version": "1.0.0",
+  "description": "BLUC in TypeScript, I can run where JavaScript can.",
+  "scripts": {
+    "dev": "nodemon -e ts,js -w ./src/ -x 'tsc && node dist/main.js'"
+  },
+  "author": "Rahonn",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.3"
+  }
+}

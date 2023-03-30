@@ -1,7 +1,7 @@
-import { run } from "./bluc/bluc.ts";
-import { ErrorOutCmd } from "./bluc/codes/ErrorOutCmd.ts";
-import { PrinterCmd } from "./bluc/codes/PrinterCmd.ts";
-import { Commands } from "./bluc/CommandType.ts";
+import { run } from "./bluc/bluc";
+import { ErrorOutCmd } from "./bluc/codes/ErrorOutCmd";
+import { PrinterCmd } from "./bluc/codes/PrinterCmd";
+import { Commands } from "./bluc/CommandType";
 
 const blucCode = `PRINT Hello world!
 PRINT hi

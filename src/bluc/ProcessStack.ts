@@ -1,4 +1,4 @@
-import { BaseCommand } from "./codes/base/BaseCmd.ts";
+import { BaseCommand } from "./codes/base/BaseCmd";
 
 export class ProcessStack {
 

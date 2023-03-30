@@ -1,5 +1,5 @@
-import { getCommandFor } from "./commands.ts";
-import { ProcessStack } from "./ProcessStack.ts";
+import { getCommandFor } from "./commands";
+import { ProcessStack } from "./ProcessStack";
 
 export function run(code: string): ProcessStack {
 

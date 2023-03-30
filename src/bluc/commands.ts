@@ -1,7 +1,7 @@
-import { BaseCommand } from "./codes/base/BaseCmd.ts";
-import { COMMENT_CHAR, CommentCmd } from "./codes/CommentCmd.ts";
-import { ErrorOutCmd } from "./codes/ErrorOutCmd.ts";
-import { PrinterCmd } from "./codes/PrinterCmd.ts";
+import { BaseCommand } from "./codes/base/BaseCmd";
+import { COMMENT_CHAR, CommentCmd } from "./codes/CommentCmd";
+import { ErrorOutCmd } from "./codes/ErrorOutCmd";
+import { PrinterCmd } from "./codes/PrinterCmd";
 
 export function getCommandFor(line: string, index?: number | null | undefined): BaseCommand {
     

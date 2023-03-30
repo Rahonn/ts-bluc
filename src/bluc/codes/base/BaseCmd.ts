@@ -1,4 +1,4 @@
-import { Commands } from "../../CommandType.ts";
+import { Commands } from "../../CommandType";
 
 export abstract class BaseCommand {
 
